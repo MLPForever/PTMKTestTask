@@ -9,7 +9,7 @@ namespace PTMKTestTask.DAL.Context
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=PTMKTestTaskDB;Username=Expsql;Password=156012");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=dbname;Username=username;Password=pswd");
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
